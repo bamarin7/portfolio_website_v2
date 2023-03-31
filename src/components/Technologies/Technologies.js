@@ -1,11 +1,11 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiGithub, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
   <Section id='tech'>
-    <SectionDivider />
+    <SectionDivider style={{marginTop: "10rem"}} />
     <br />
     <br />
     <SectionTitle>Technologies</SectionTitle>
@@ -18,7 +18,11 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with <br /> React.js
+            React.js <br />
+            ReactNative.js <br />
+            JavaScript <br />
+            CSS3 <br />
+            HTML5 <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -27,20 +31,27 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br /> Node.js
+            Node.js <br />
+            Python <br />
+            SQL <br />
+            MongoDB <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiZend size='3rem' />
+        <DiGithub size='3rem' />
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Other</ListTitle>
           <ListParagraph>
-            Experience with <br /> tools like Figma
+            Git / GitHub <br />
+            VS Code <br />
+            XCode <br />
+            Android Studio <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
+    <SectionDivider style={{marginTop: "10rem"}} />
   </Section>
 );
 

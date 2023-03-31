@@ -32,7 +32,7 @@ export const Div1 = styled.div`
   }
 `;
 export const Div2 = styled.div`
-  grid-area: 1 / 2 / 2 / 4;
+  grid-area: 1 / 1 / 2 / 4;
   display: flex;
   justify-content: space-around;
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -46,7 +46,8 @@ export const Div3 = styled.div`
   align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
     align-items: center;
-    grid-area: 1 / 4 / 2 / 6;
+    justify-content: space-between;
+    grid-area: 1 / 2 / 2 / 5;
   }
 `;
 

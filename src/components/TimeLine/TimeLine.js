@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import Button from '../../styles/GlobalComponents/Button';
 import { TimeLineData } from '../../constants/constants';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
@@ -45,7 +46,7 @@ const Timeline = () => {
     <Section id='about'>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi saepe voluptatem officia? Ex voluptas qui officia maxime nemo minus ad.
+        Below you can download my resume!
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -110,7 +111,9 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider />
+      <br />
+      <Button onClick={() => window.location = 'about'}>Download Resume</Button>
+      <SectionDivider style={{marginTop: "10rem"}} />
     </Section>
   );
 };
