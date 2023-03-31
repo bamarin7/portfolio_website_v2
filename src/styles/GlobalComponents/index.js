@@ -9,6 +9,7 @@ export const Section = styled.section`
   box-sizing: content-box;
   position: relative;
   overflow: hidden;
+  // height: 100vh;
   grid-template-columns: 1fr 1fr;
 
   @media ${(props) => props.theme.breakpoints.md} {
