@@ -10,7 +10,7 @@ const Hero = (props) => (
         Welcome to <br /> My Portfolio!
       </SectionTitle>
       <SectionText>
-        I'm a Full Stack Software Developer working on the MERN stack with a past in the Design/Advertising industry building next-gen tools for the web
+        My name is Brian Marin Silva and I'm a Full Stack Software Developer working on the MERN stack <br /><br /> I have a past in the Design/Advertising industry and I love building next-gen tools for the web
       </SectionText>
       <Button onClick={() => window.location = '#projects'}>Learn More</Button>
     </LeftSection>
