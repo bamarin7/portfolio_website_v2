@@ -112,7 +112,14 @@ const Timeline = () => {
         ))}
       </CarouselButtons>
       <br />
-      <Button onClick={() => window.location = 'about'}>Download Resume</Button>
+      <Button
+        // onClick={() => window.location = 'about'}
+        as="a" href="/Resume.pdf"
+        download="Resume.pdf" //Add resume to Public folder and change the dowload path
+        target="_blank"
+        rel="noopener noreferrer" >
+          Download Resume
+      </Button>
       <SectionDivider style={{marginTop: "10rem"}} />
     </Section>
   );
