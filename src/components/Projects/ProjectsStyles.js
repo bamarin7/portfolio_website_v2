@@ -11,10 +11,6 @@ export const Img2 = styled.img`
   width: 50%;
   height: auto;
   z-index: 50;
-
-  @media ${(props) => props.theme.breakpoints.sm} {
-    display: block;
-  }
 `;
 
 export const ImageContainer = styled.div`
@@ -25,6 +21,10 @@ export const ImageContainer = styled.div`
   width: 100%;
   position: relative;
   transform: translateY(-20%);
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    transform: translateY(-40%);
+  }
 `;
 
 export const GridContainer = styled.section`
