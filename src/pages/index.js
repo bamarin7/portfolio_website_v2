@@ -6,15 +6,17 @@ import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
-import { Img2 } from '../components/Projects/ProjectsStyles';
+import { ImageContainer, Img2 } from '../components/Projects/ProjectsStyles';
 
 const Home = () => {
   return (
     <Layout>
       <Section grid>
         <Hero />
+        <ImageContainer>
+          <Img2 src="/images/avatar.png" alt='avater picture' />
+        </ImageContainer>
         {/* <BgAnimation /> */}
-        <Img2 src="/images/avatar.png" alt='avater picture' />
       </Section>
       <Projects />
       <Technologies />

@@ -8,12 +8,24 @@ export const Img = styled.img`
 `
 
 export const Img2 = styled.img`
-  width:50%;
+  width: 50%;
   height: auto;
+  z-index: 50;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    display: block;
+  }
+`;
+
+export const ImageContainer = styled.div`
+  display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 50;
-`
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transform: translateY(-20%);
+`;
 
 export const GridContainer = styled.section`
 display: grid;
@@ -28,8 +40,8 @@ row-gap: 3rem;
   padding: 2rem;
   padding-bottom: 0;
 }
-
 `
+
 export const BlogCard = styled.div`
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
