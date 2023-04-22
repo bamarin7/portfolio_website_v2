@@ -19,11 +19,12 @@ export const ImageContainer = styled.div`
   align-items: center;
   height: 100%;
   width: 100%;
-  position: relative;
+  position: absolute;
   transform: translateY(-20%);
 
   @media ${(props) => props.theme.breakpoints.sm} {
     transform: translateY(-40%);
+    position: relative;
   }
 `;
 

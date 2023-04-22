@@ -8,7 +8,8 @@ export const Section = styled.section`
   max-width: 1040px;
   box-sizing: content-box;
   position: relative;
-  overflow: hidden;
+  z-index: 100;
+  /* overflow: hidden; */
   // height: 100vh;
   grid-template-columns: 1fr 1fr;
 
@@ -196,7 +197,7 @@ export const ButtonBack = styled.div`
     width: 100%;
     height: 40px;
     font-size: 14px;
-    margin-top: 32px;
+    margin-top: 40px;
     margin-bottom: ${({ alt }) => alt ? '0' : '32px'};
   }
 `

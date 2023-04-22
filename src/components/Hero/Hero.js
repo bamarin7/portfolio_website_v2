@@ -25,7 +25,7 @@ const Hero = (props) => {
         <ImageContainer>
           <Img2 src="/images/avatar.png" alt="avatar picture" />
         </ImageContainer>
-      )};
+      )}
     </Section>
   );
 };
