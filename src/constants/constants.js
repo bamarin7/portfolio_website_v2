@@ -39,8 +39,8 @@ export const projects = [
 
 export const TimeLineData = [
   { year: 2018, text: 'Graduated from the University of Houston', },
-  { year: 2020, text: 'Started my Software Development journey', },
-  { year: 2021, text: 'Started my Full-Stack bootcamp', },
-  { year: 2022, text: 'Graduated from the bootcamp', },
-  { year: 2022, text: 'Shared my projects with the world', },
+  { year: 2021, text: 'Started my Software Development journey', },
+  { year: 2022, text: 'Started my Full-Stack bootcamp', },
+  { year: 2023, text: 'Graduated from the bootcamp', },
+  { year: 2023, text: 'Shared my projects with the world', },
 ];

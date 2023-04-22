@@ -104,7 +104,7 @@ export const SectionSubText = styled.p`
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.80);
 
 @media ${(props) => props.theme.breakpoints.md} {
     max-width: 672px;
@@ -254,7 +254,7 @@ export const LinkContainer = styled.div`
   padding: 8px;
 
   &:hover {
-    background-color: #212d45;
+    background-color: #F0F4F8;
     transform: scale(1.2);
     cursor: pointer;
   }

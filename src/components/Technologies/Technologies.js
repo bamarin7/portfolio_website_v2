@@ -21,6 +21,7 @@ const Technologies = () =>  (
             React.js <br />
             ReactNative.js <br />
             JavaScript <br />
+            Typescript <br />
             CSS3 <br />
             HTML5 <br />
           </ListParagraph>
