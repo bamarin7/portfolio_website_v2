@@ -36,6 +36,7 @@ const Technologies = () =>  (
             Python <br />
             SQL <br />
             MongoDB <br />
+            Express <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
