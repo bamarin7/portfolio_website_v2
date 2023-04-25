@@ -128,14 +128,15 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-color:#d4c0c0;
+color:#F7F7F7;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #6b3030;
-border-radius: 15px;
+background: #f47424;
+border-radius: 8px;
+opacity: 0.7;
 transition: 0.5s;
 &:hover{
-  background: #801414;
+  opacity: 1;
 
 }
 `;

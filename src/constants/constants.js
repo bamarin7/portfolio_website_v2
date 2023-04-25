@@ -12,7 +12,7 @@ export const projects = [
     title: 'Spotify App',
     description:"Fully functional web app that connects with the Spotify API, implementing OAuth for authorization, and fetching user-specific data. Used React, React Hooks, Styled Components, the Spotify API, Node.js, and Express. The app was deployed to the internet using Heroku.",
     image: '/images/og.png',
-    tags: ['React', 'Node.js', 'CSS', 'REST APIs', 'OAuth', 'Express', 'Heroku'],
+    tags: ['React', 'Node.js', 'Express', 'Heroku'],
     source: 'https://spotify-recap-app.herokuapp.com/',
     visit: 'https://github.com/bamarin7/spotify_app',
     id: 1,
