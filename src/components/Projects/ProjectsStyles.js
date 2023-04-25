@@ -8,10 +8,21 @@ export const Img = styled.img`
 `
 
 export const Img2 = styled.img`
-  width: 30%;
+  width: 100%;
   height: auto;
   pointer-events: all;
   z-index: 50;
+  position: relative;
+  bottom: 20%;
+  right: -20%;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 55%;
+    bottom: 0%;
+    right: 0%;
+    top: -35%;
+    margin-top: 20px
+  }
 `;
 
 export const ImageContainer = styled.div`

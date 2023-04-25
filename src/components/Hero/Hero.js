@@ -2,13 +2,13 @@ import React from 'react';
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection, RightSection } from './HeroStyles';
-import useWindowSize from '../../hooks/useWindowSize';
-import { Img2, ImageContainer } from '../Projects/ProjectsStyles';
+// import useWindowSize from '../../hooks/useWindowSize';
+import { Img2 } from '../Projects/ProjectsStyles';
 
 
 const Hero = (props) => {
-  const { width } = useWindowSize();
-  const smBreakpoint = 640;
+  // const { width } = useWindowSize();
+  // const smBreakpoint = 640;
 
   return (
     <Section row nopadding>
@@ -21,13 +21,9 @@ const Hero = (props) => {
         </SectionText>
         <Button onClick={() => (window.location = '#projects')}>Learn More</Button>
       </LeftSection>
-      {width <= smBreakpoint && (
-        <RightSection>
-          <ImageContainer>
-            <Img2 src="/images/avatar.png" alt="avatar picture" />
-          </ImageContainer>
-        </RightSection>
-      )}
+      <RightSection>
+        <Img2 src="/images/avatar.png" alt="avatar picture" />
+      </RightSection>
     </Section>
   );
 };
