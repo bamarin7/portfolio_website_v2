@@ -16,7 +16,7 @@ export const Img2 = styled.img`
 
 export const ImageContainer = styled.div`
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   height: auto;
   width: auto;
