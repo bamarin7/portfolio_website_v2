@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const LeftSection = styled.div`
-  width: 80%;
+  width: 50%;
   height: 100vh;
   z-index: 150;
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -20,7 +20,7 @@ export const LeftSection = styled.div`
 `;
 
 export const RightSection = styled.div`
-  width: 20%;
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;

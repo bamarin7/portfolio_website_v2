@@ -8,7 +8,7 @@ export const Img = styled.img`
 `
 
 export const Img2 = styled.img`
-  width: 100%;
+  width: 60%;
   height: auto;
   pointer-events: all;
   z-index: 50;
