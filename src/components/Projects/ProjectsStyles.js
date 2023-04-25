@@ -10,22 +10,28 @@ export const Img = styled.img`
 export const Img2 = styled.img`
   width: 30%;
   height: auto;
+  pointer-events: all;
   z-index: 50;
 `;
 
 export const ImageContainer = styled.div`
   display: flex;
-  justify-content: right;
+  justify-content: flex-end;
   align-items: center;
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: auto;
   position: absolute;
+  top: 0;
+  right: 0;
   transform: translateY(-20%);
+  pointer-events: none;
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    transform: translateY(-50%);
-    position: relative;
+    transform: translateY(-40%);
+    position: absolute;
     justify-content: center;
+    top: 0;
+    right: 0;
   }
 `;
 
