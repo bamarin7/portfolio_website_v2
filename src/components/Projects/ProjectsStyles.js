@@ -8,14 +8,14 @@ export const Img = styled.img`
 `
 
 export const Img2 = styled.img`
-  width: 50%;
+  width: 30%;
   height: auto;
   z-index: 50;
 `;
 
 export const ImageContainer = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
   height: 100%;
   width: 100%;
@@ -23,8 +23,9 @@ export const ImageContainer = styled.div`
   transform: translateY(-20%);
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    transform: translateY(-40%);
+    transform: translateY(-50%);
     position: relative;
+    justify-content: center;
   }
 `;
 
