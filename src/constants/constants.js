@@ -9,12 +9,12 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'Example 2',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+    title: 'Spotify App',
+    description:"Fully functional web app that connects with the Spotify API, implementing OAuth for authorization, and fetching user-specific data. Used React, React Hooks, Styled Components, the Spotify API, Node.js, and Express. The app was deployed to the internet using Heroku.",
     image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    tags: ['React', 'Node.js', 'CSS', 'REST APIs', 'OAuth', 'Express', 'Heroku'],
+    source: 'https://spotify-recap-app.herokuapp.com/',
+    visit: 'https://github.com/bamarin7/spotify_app',
     id: 1,
   },
   {
