@@ -1,7 +1,7 @@
 import React from 'react';
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import { LeftSection, RightSection } from './HeroStyles';
 import useWindowSize from '../../hooks/useWindowSize';
 import { Img2, ImageContainer } from '../Projects/ProjectsStyles';
 
@@ -22,9 +22,11 @@ const Hero = (props) => {
         <Button onClick={() => (window.location = '#projects')}>Learn More</Button>
       </LeftSection>
       {width <= smBreakpoint && (
-        <ImageContainer>
-          <Img2 src="/images/avatar.png" alt="avatar picture" />
-        </ImageContainer>
+        <RightSection>
+          <ImageContainer>
+            <Img2 src="/images/avatar.png" alt="avatar picture" />
+          </ImageContainer>
+        </RightSection>
       )}
     </Section>
   );

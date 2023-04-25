@@ -9,9 +9,9 @@ export const Section = styled.section`
   box-sizing: content-box;
   position: relative;
   z-index: 100;
+  grid-template-columns: ${(props) => (props.row ? "80% 20%" : "1fr 1fr")};
   /* overflow: hidden; */
   // height: 100vh;
-  grid-template-columns: 1fr 1fr;
 
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px 48px 0;
@@ -20,7 +20,6 @@ export const Section = styled.section`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: ${(props) => props.nopadding ? "0" : "16px 16px 0" } ;
-
     width: calc(100vw - 32px);
     flex-direction: column;
   }

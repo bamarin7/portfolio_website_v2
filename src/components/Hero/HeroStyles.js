@@ -19,3 +19,18 @@ export const LeftSection = styled.div`
     margin: 0 auto;
   }
 `;
+
+export const RightSection = styled.div`
+  width: 20%;
+  display: flex;
+  align-items: center;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 100%;
+    height: auto;
+  }
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    display: none;
+  }
+`;
