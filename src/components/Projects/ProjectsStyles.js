@@ -21,7 +21,6 @@ export const Img2 = styled.img`
     bottom: 0%;
     right: 0%;
     top: -35%;
-    margin-top: 20px
   }
 `;
 
