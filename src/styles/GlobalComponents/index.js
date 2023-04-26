@@ -197,6 +197,7 @@ export const ButtonBack = styled.div`
     width: 100%;
     height: 40px;
     font-size: 14px;
+    border-radius: 8px;
     margin-top: 40px;
     margin-bottom: ${({ alt }) => alt ? '0' : '32px'};
   }
