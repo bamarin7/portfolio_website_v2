@@ -131,13 +131,13 @@ export const ExternalLinks = styled.a`
 color:#fff;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: linear-gradient(270deg, #ff622e 0%, #B133FF 100%);
+background: linear-gradient(270deg, #00DBD8 0%, #B133FF 100%);
 border-radius: 8px;
 opacity: 0.7;
 transition: 0.5s;
 &:hover{
   opacity: 1;
-  background: linear-gradient(270deg, #00DBD8 0%, #B133FF 100%);
+  background: linear-gradient(270deg, #ff622e 0%, #B133FF 100%);
 }
 `;
 
