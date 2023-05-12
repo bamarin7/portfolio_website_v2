@@ -114,11 +114,10 @@ const Timeline = () => {
       <br />
       <Button
         // onClick={() => window.location = 'about'}
-        as="a" href="/Resume.pdf"
-        download="Resume.pdf" //Add resume to Public folder and change the dowload path
+        as="a" href="/images/01_Brian_Marin_Silva_Resume.pdf"
         target="_blank"
         rel="noopener noreferrer" >
-          Download Resume
+          My Resume
       </Button>
       <SectionDivider style={{marginTop: "10rem"}} />
     </Section>
