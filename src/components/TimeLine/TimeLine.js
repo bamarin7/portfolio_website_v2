@@ -114,7 +114,7 @@ const Timeline = () => {
       <br />
       <Button
         // onClick={() => window.location = 'about'}
-        as="a" href="/public/images/01_Brian_Marin_Silva_Resume.pdf"
+        as="a" href="/images/01_Brian_Marin_Silva_Resume.pdf"
         target="_blank"
         rel="noopener noreferrer" >
           My Resume
