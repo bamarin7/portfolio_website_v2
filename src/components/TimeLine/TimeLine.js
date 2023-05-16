@@ -112,13 +112,23 @@ const Timeline = () => {
         ))}
       </CarouselButtons>
       <br />
-      <Button
+      <a
+        href="/images/01_Brian_Marin_Silva_Resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Button>
+          Open Resume
+        </Button>
+      </a>
+      {/* <Button
         // onClick={() => window.location = 'about'}
         as="a" href="/images/01_Brian_Marin_Silva_Resume.pdf"
         target="_blank"
         rel="noopener noreferrer" >
           My Resume
-      </Button>
+      </Button> */}
+      {/* <ExternalLinks href='/images/01_Brian_Marin_Silva_Resume.pdf' target="_blank" rel="noopener noreferrer">My Resume</ExternalLinks> */}
       <SectionDivider style={{marginTop: "10rem"}} />
     </Section>
   );

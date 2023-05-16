@@ -9,7 +9,7 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'Food App',
+    title: 'FoodApp',
     description: "FoodApp is a mobile application built with React Native and Expo that allows users to search for restaurants and view detailed information about them. The app uses the Yelp API to fetch restaurant data.",
     image: '/images/FoodApp_og2.png',
     tags: ['React Native', 'Expo', 'YelpAPI', 'Axios'],
