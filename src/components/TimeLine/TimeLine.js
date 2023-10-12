@@ -113,7 +113,7 @@ const Timeline = () => {
       </CarouselButtons>
       <br />
       <a
-        href="/images/01_Brian_Marin_Silva_Resume.pdf"
+        href="/images/SE_Resume_BrianMarinSilva.pdf"
         target="_blank"
         rel="noopener noreferrer"
       >
